@@ -15,3 +15,11 @@ def get_loader(name):
     return {
         "cats_dogs_loader" : FileListFolder
     }[name]
+
+def get_loader_Dmel(name):
+    """get_loader
+    :param name:
+    """
+    return {
+        "Dmel_loader" : FileListFolder
+    }[name]
